@@ -8,8 +8,17 @@
     "start": "next start"
   },
   "dependencies": {
+    "@fullpage/react-fullpage": "^0.1.17",
+    "@types/youtube-player": "^5.5.3",
     "next": "9.4.2",
     "react": "16.13.1",
-    "react-dom": "16.13.1"
+    "react-dom": "16.13.1",
+    "react-youtube": "^7.11.2"
+  },
+  "devDependencies": {
+    "@types/node": "^14.0.5",
+    "@types/react": "^16.9.35",
+    "@types/youtube": "^0.0.39",
+    "typescript": "^3.9.3"
   }
 }
