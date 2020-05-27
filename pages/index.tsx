@@ -55,7 +55,7 @@ export default class Home extends React.Component {
                   />
                 </div>
                 <div className="section">
-                  <h1 className="title">You decide when</h1>
+                  <h1 className="title">You decide when ❤️</h1>
                 </div>
               </ReactFullpage.Wrapper>
             );
