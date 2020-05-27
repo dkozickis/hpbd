@@ -41,6 +41,7 @@ export default class Home extends React.Component {
                       width: "640",
                       playerVars: {
                         autoplay: 0,
+                        playsinline: 1,
                       },
                     }}
                     onReady={({ target }) => (this.youtubePlayer = target)}
