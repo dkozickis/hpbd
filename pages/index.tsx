@@ -21,7 +21,9 @@ export default class Home extends React.Component {
                       fullpageApi.moveSectionDown();
                       this.youtubePlayer.playVideo();
                       setTimeout(() => {
-                        this.youtubePlayer.pauseVideo();
+                        // this.youtubePlayer.
+                        // this.youtubePlayer.pauseVideo();
+                        this.youtubePlayer.seekTo(999999, true);
                         fullpageApi.moveSectionDown();
                       }, 55000);
                     }}
@@ -41,7 +43,7 @@ export default class Home extends React.Component {
                       width: "640",
                       playerVars: {
                         autoplay: 0,
-                        playsinline: 1,
+                        // playsinline: 1,
                       },
                     }}
                     onReady={({ target }) => (this.youtubePlayer = target)}
