@@ -8,6 +8,7 @@ class MyApp extends App {
         <Component {...pageProps} />
         <style jsx global>{`
           @import url("https://fonts.googleapis.com/css2?family=Faster+One&display=swap");
+          @import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
         `}</style>
       </div>
     );

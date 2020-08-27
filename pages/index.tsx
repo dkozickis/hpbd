@@ -29,12 +29,15 @@ export default class Home extends React.Component {
                     }}
                     className="title"
                   >
-                    Do you want to fly?
+                    В РЕСТИК ПОЙДЕМ? <br />
+                    ТЫ, Я, ЗАВТРА В 1900 ❤️ <br />
+                    <br />
+                    <span style={{ textDecoration: "underline" }}>А КУДА?</span>
                   </h1>
                 </div>
                 <div className="section">
                   <YouTube
-                    videoId={"wn-91qR511k"}
+                    videoId={"ZQ5PJJCdiOk"}
                     id={"veryId"}
                     className={"youtube"}
                     containerClassName={"youtubeContainer"}
@@ -43,7 +46,7 @@ export default class Home extends React.Component {
                       width: "640",
                       playerVars: {
                         autoplay: 0,
-                        // playsinline: 1,
+                        playsinline: 1,
                       },
                     }}
                     onReady={({ target }) => (this.youtubePlayer = target)}
@@ -62,7 +65,7 @@ export default class Home extends React.Component {
           }}
         />
         <Head>
-          <title>Alina - 29</title>
+          <title>AlinaDenis</title>
           <link rel="icon" href="/favicon.ico" />
         </Head>
         <style jsx global>{`
@@ -74,7 +77,7 @@ export default class Home extends React.Component {
           }
 
           .title {
-            font-family: "Faster One";
+            font-family: "Open Sans";
             text-align: center;
             text-transform: uppercase;
           }
