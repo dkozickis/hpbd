@@ -57,9 +57,9 @@ export default class Home extends React.Component {
                     onStateChange={() => console.log("CHANGE")}
                   />
                 </div>
-                <div className="section">
+                {/* <div className="section">
                   <h1 className="title">You decide when ❤️</h1>
-                </div>
+                </div> */}
               </ReactFullpage.Wrapper>
             );
           }}
